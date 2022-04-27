@@ -103,15 +103,8 @@ a{text-decoration: none;}
     color: var(--accent-color);
     
 }
-.logo-footer{
-    font-family: 'Raleway';
-    color: #2196F3;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-}
-.logo-footer span{color:var(--prymory-white-color);}
+
+.logo .logo-footer{color:var(--prymory-white-color);}
 .section-footer{
    
     font-size: 14px;
