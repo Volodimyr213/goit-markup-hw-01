@@ -8,6 +8,41 @@ body{
     font-family:'Roboto', Tahoma, sans-serif;
     color: #757575;
 }
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6{
+    margin: 0;
+}
+
+ol,ul{
+    margin: 0; 
+    padding-left: 0;
+}
+img{
+    display: block;
+}
+
+.conteiner{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+  margin: 0 auto;
+    outline: 1px solid red;
+}
+.header{
+    padding-top: 24px;
+    padding-bottom:25px;
+}
+
+button{
+    cursor: pointer;
+
+}
+
 /* Логотип */
 .logo{color: #2196F3;
      font-family: 'Raleway',sans-serif;
@@ -23,6 +58,7 @@ a{text-decoration: none;}
 
 /* навігація */
 .nav-main{
+  display: inline-block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -34,27 +70,59 @@ a{text-decoration: none;}
 .site-nav.carrent {color:var(--accent-color)}
 
 /* контакти */
-.links a{color: #757575;}
+.links a{
+    color: #757575;
+    display: inline-block;
+}
 .links a:hover,
 .links a:focus{color:var(--accent-color)}
 /* герой */
-.hero{background: #2F303A;}
-.hero-title{color: var(--prymory-white-color);
+.hero{
+    background: #2F303A;
+    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+
+.hero-title
+    {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 696px;
+    color: var(--prymory-white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;   
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;}
-.hero.button{
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-}
+
+.hero-button
+{
+     display: inline-block;
+     cursor: pointer;
+     margin:0 auto;
+     display: block;
+     width: 200px;
+     height: 50px;
+     left: 700px;
+     top: 430px;
+     background: #2196F3;
+     /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+     border-radius: 4px; 
+     font: weight 700px;;
+font-size: 16px;
+line-height: 1.88;
+color: #FFFFFF;
+     }
+.hero-button button{
+    
+
+
+}    
+
  
 /* преимущества */
 .Benefits-title{ 
@@ -110,6 +178,9 @@ a{text-decoration: none;}
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;}
+    .footer-links{
+     font-style: normal;
+    }
 
 
 .footer-link-addess{color:var(--prymory-white-color);}
@@ -118,6 +189,7 @@ a{text-decoration: none;}
 .button{
     color: var(--prymory-white-color);
     background-color: var(--accent-color);
+   
 }
 /* Партфоліо кнопки */
 .nav-button button{

@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" 
+     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" 
+     crossorigin="anonymous" 
+     referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,28 +19,41 @@
   
   </head>
   <body>
-    <header>
-      <a class="logo" lang="en" href="">Web<span class="logo-head">Studio</span></a>
-      <nav class="nav-main">
-        <ul class="site-nav">
-          <li><a class="site-nav carrent" href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Партфолио</a></li>
-          <li><a href="">Контакты</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="conteiner"> 
+            <a class="logo" lang="en" href="">Web<span class="logo-head">Studio</span></a>
+      
+        <nav class="nav-main"></nav>
+         <ul class="site-nav">
+           <li><a class="site-nav carrent" href="./index.html">Студия</a></li>
+           <li><a href="./portfolio.html">Портфолио</a></li>
+           <li><a href="">Контакты</a></li>
+          </ul>
+        </nav>
       <ul class="links" >
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+38096111111">+38 096 111 11 11</a></li>
       </ul>
+       
+      </div>
+   
     </header>
 
-    <main>
+    <main >
        <section class="hero" >
-        <h1 class="hero-title">Ефективные решения <br> для вашего бизнеса</h1>
-        <button class="hero button" type="button">заказать услугу</button>
+         <Div class="conteiner">
+        
+            <h1 class="hero-title">
+              Эффективные решения для вашего бизнеса
+            </h1>
+
+             <button class="hero-button" type="button">Заказать услугу</button>
+         
        </section> 
+
        <section class="Benefits">
-        <h2 >Преимущества</h2>
+         <div class="conteiner">
+                   <h2 >Преимущества</h2>
         <ul>
           <li>
             <h3 class="Benefits-title">Внимание к деталям</h3>
@@ -64,6 +84,8 @@
             </p>
           </li>
         </ul>
+      </Div>
+     
       </section>
       <section class="section">
         <h2 class="section-title">Чем мы занимаемся</h2>
@@ -84,6 +106,7 @@
         </ul>
       </section>
       <section class="team">
+        
         <h2 class="team-title">Наша команда</h2>
         <ul>
           <li>
@@ -107,6 +130,7 @@
             <p class="team-text">UI Designer</p>
           </li>
         </ul>
+    
       </section>
     </main>
     <footer class="section-footer">
