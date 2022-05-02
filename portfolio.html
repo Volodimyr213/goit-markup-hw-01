@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/style.css">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
     <title lang="en">Portfolio</title>
     
 </head>
@@ -17,72 +17,106 @@
     <a class="logo" lang="en" href="">Web<span class="logo-head">Studio</span></a>
     <nav class="nav-main">
       <ul class="site-nav">
-        <li><a href="./index.html">Студия</a></li>
+        <li><a class="site-nav-link" href="./index.html">Студия</a></li>
         <li><a class="site-nav carrent"href="./portfolio.html">Партфолио</a></li>
-        <li><a href="">Контакты</a></li>
+        <li><a class="site-nav-link" href="">Контакты</a></li>
       </ul>
     </nav>
     <ul class="links" >
-      <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a href="tel:+38096111111">+38 096 111 11 11</a></li>
+      <li><a class="links-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      <li><a class="links-link" href="tel:+38096111111">+38 096 111 11 11</a></li>
     </ul>
   </header>
-        <Main>
-          <ul class="nav-button">
-            <Li> <button class="nav-button primary"><a type="button">Все</a></button> </Li>
-            <Li> <button><a type="button">Веб-сайты</a></button> </Li>
-            <Li> <button><a type="button">Приложения</a></button> </Li>
-            <Li> <button><a type="button">Дизайн</a></button> </Li>
-            <Li> <button><a type="button">Маркетинг</a></button> </Li>
+        <main>
+            <section class="main"></section>
+            <h1 class="main-titl">Наши проэкты</h1>
+
+          <ul class="nav-project">
+            <li> <button class="button-activ" type="button">Все</button>
+             </Li>
+            <li> <button class="nav-button" type="button"> Веб-сайты</button> 
+            </Li>
+            <li> <button class="nav-button" type="button">Приложения</button>
+            </Li>
+            <li> <button class="nav-button" type="button">Дизайн</button>
+            </Li>
+            <li> <button class="nav-button" type="button">Маркетинг</button>
+            </Li>
          </ul>
 
-         <section class="main">
-             <H1>Наши проэкты</H1>
+         
+            
 
-         <ul class="main-projects">
-            <Li>
-                <a href=""><img src="./images/img.jpg" alt="фотографии" width="370"/></a>
-                <h2 >Технокряк</h2> 
-                 <p>Веб-сайт</p></Li>
-
-            <Li> 
-                <a href=""><img src="./images/img1.jpg" alt="Баскетболисты" width="370" ></a>
-                <h2 >Постер <span lang="en">New Orlean vs Golden Star</span> </h2> 
-                <p>Дизайн</p> </Li>
-
-            <Li> 
-                <a href=""><img src="./images/img2.jpg" alt="рыба " width="370" ></a>
-                <h2>Ресторан <span lang="en">Seafood</span> </h2> 
-                <p> Приложение</p> </Li>
-
-            <Li> 
-                <a href=""><img src="./images/img3.jpg" alt="наушники" width="370" ></a>
-                <h2>Проект <span lang="en">Prime</span></h2>  
-                <p>Маркетинг</p></Li>
-
-            <Li> 
-                <a href=""><img src="./images/img4.jpg" alt="Коробки" width="370" ></a>
-                <h2>Проект <span lang="en">Boxes</span></h2> 
-                <p>Приложение</p> </Li>
-
-            <Li> 
-                <a href=""><img src="./images/img5.jpg" alt="монитор" width="370" ></a>
-                <h2 lang="en">Inspiration has no Borders</h2> 
-                <p>Веб-сайт</p></Li>
+         <ul >
+            <li>
+                <a href=""><img src="./images/img.jpg" alt="фотографии" width="370"/>
+                    <h2 class="project-titl" >Технокряк</h2> 
+                    <p class="projects-txt">Веб-сайт</p>            
+                </a>
+                                
+                </li>
 
             <li> 
-                <a href=""><img src="./images/img6.jpg" alt="откітая книга" width="370" ></a>
-                <h2>Издание <span lang="en"> Edition</span></h2> 
-                <p>Дизайн</p></li>
+                <a href=""><img src="./images/img1.jpg" alt="Баскетболисты" width="370" >
+                    <h2 class="project-titl" >Постер <span lang="en">New Orlean vs Golden Star</span> </h2> 
+                    <p class="projects-txt" >Дизайн</p> 
+                
+                </a>
+                
+            </Li>
 
             <li> 
-                <a href=""><img src="./images/img7.jpg" alt="лэйба" width="370" ></a>
-                <h2>Проект <span lang="en">LAB</span></h2> 
-                <p>Маркетинг</p> </li>
+                <a href=""><img src="./images/img2.jpg" alt="рыба " width="370" >
+                    <h2 class="project-titl">Ресторан <span lang="en">Seafood</span> </h2> 
+                    <p class="projects-txt" > Приложение</p> 
+                </a>
+                
+            </li>
+
             <li> 
-                <a href=""><img src="./images/img8.jpg" alt="работа на ноутбуке" width="370"></a>
-                <h2 lang="en">Growing Business</h2> 
-                <p>Приложение</p> </li>
+                <a href=""><img src="./images/img3.jpg" alt="наушники" width="370" >
+                    <h2 class="project-titl">Проект <span lang="en">Prime</span></h2>  
+                    <p class="projects-txt">Маркетинг</p>
+                </a>
+                
+            </li>
+
+            <li> 
+                <a href=""><img src="./images/img4.jpg" alt="Коробки" width="370" >
+                    <h2 class="project-titl">Проект <span lang="en">Boxes</span></h2> 
+                    <p class="projects-txt">Приложение</p> 
+                </a>    
+            </Li>
+
+            <li> 
+                <a href=""><img src="./images/img5.jpg" alt="монитор" width="370" >
+                    <h2 class="project-titl" lang="en">Inspiration has no Borders</h2> 
+                    <p class="projects-txt">Веб-сайт</p>
+                 </a>
+            </Li>
+                
+
+            <li> 
+                <a href=""><img src="./images/img6.jpg" alt="откітая книга" width="370" >
+                    <h2 class="project-titl">Издание <span lang="en"> Edition</span></h2> 
+                    <p class="projects-txt">Дизайн</p>
+                </a>
+                
+            </li>
+
+            <li> 
+                <a href=""><img src="./images/img7.jpg" alt="лэйба" width="370" >
+                    <h2 class="project-titl">Проект <span lang="en">LAB</span></h2> 
+                    <p class="projects-txt">Маркетинг</p> 
+                </a>
+            </li>
+                
+            <li> 
+                <a href=""><img src="./images/img8.jpg" alt="работа на ноутбуке" width="370">
+                    <h2 class="project-titl" lang="en">Growing Business</h2> 
+                    <p class="projects-txt">Приложение</p>
+                    </a>
+             </li>
             
          </ul>
         </section>    
