@@ -159,8 +159,12 @@
         letter-spacing: 0.03em;}
     
     
-    .footer-link-addess{color:var(--prymory-white-color);}
-    .footer-link-email,.footer-link-tel{ color: rgba(255, 255, 255, 0.6);
+    .footer-link-addess{
+        color:var(--prymory-white-color);
+    }
+    .footer-link-email,
+    .footer-link-tel{
+         color: rgba(255, 255, 255, 0.6);
     }
     
     /* Портфоліо кнопки */
@@ -199,7 +203,7 @@
       
 
 
-        .project-titl{
+    .project-titl{
         color: var(--title-text-color);
         font-weight: 700;
         font-size: 18px;
@@ -220,7 +224,7 @@
     }
   
     
-    .nav-button .button-activ{
+    .button-activ{
         color: var(--prymory-white-color);
         background-color: var(--accent-color);
         font-weight: 500;
